@@ -81,7 +81,7 @@ section p {
 
 .botao-menu button {
     padding: 8px;
-    display: flex;
+    display: none;
 }
 
 button {
@@ -118,5 +118,36 @@ button {
 
     .botao-menu button {
         padding: 8px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .botao-menu button {
+        display: flex;
+    }
+
+    .container {
+        max-width: 90%
+    }
+
+    header .container,
+    section .container {
+        flex-direction: column;
+    }
+
+    .container-flex {
+        flex-wrap: wrap;
+    }
+
+    .botao-menu button {
+        padding: 8px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu > li {
+        clear: both;
     }
 }
