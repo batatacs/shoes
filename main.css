@@ -112,6 +112,11 @@ button {
         display: none;
     }
 
+    .imagem {
+        height: 400px;
+        margin-right: 32px;
+    }
+
     .container-flex {
         flex-wrap: wrap;
     }
@@ -149,5 +154,11 @@ button {
 
     .menu > li {
         clear: both;
+    }
+
+    .imagem {
+        height: 400px;
+        margin-right: 32px;
+        width: auto;
     }
 }
