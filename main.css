@@ -113,8 +113,10 @@ button {
     }
 
     .imagem {
-        height: 400px;
+        max-width:400px;
+        height: auto;
         margin-right: 32px;
+        width: auto;
     }
 
     .container-flex {
